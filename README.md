@@ -20,11 +20,9 @@ Read more about [SUIT's design principles](https://github.com/suitcss/suit/).
 * `u-nbfcAlt` - Create a new block formatting context (alternative technique).
 * `u-pullLeft` - Float left.
 * `u-pullRight` - Float right.
-* `u-objLeft` - The same as `u-pullLeft` but with `10px` of opposite margin, and child image normalization.
-* `u-objRight` - The same as `u-pullRight` but with `10px` of opposite margin, and child image normalization.
 * `u-alignTop` - Vertically align to top.
 * `u-alignMiddle` - Vertically align to middle.
-* `u-alignBaseline` -Vertically align to baseline.
+* `u-alignBaseline` - Vertically align to baseline.
 * `u-alignBottom` - Vertically align to bottom.
 
 ## Usage
