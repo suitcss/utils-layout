@@ -1,5 +1,12 @@
 === HEAD
 
+=== 0.4.0 (June 21, 2014)
+
+* npm-based workflow.
+* Add new preprocessor build tools.
+* `u-pullLeft` -> `u-floatLeft`
+* `u-pullRight` -> `u-floatRight`
+
 === 0.3.0 (March 24, 2014)
 
 * Add npm support.
