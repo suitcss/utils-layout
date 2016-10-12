@@ -1,17 +1,27 @@
 {
   "name": "suitcss-utils-layout",
-  "description": "Layout utilities for SUIT CSS",
   "version": "1.0.1",
-  "style": "index.css",
+  "description": "Layout utilities for SUIT CSS",
+  "keywords": [
+    "browser",
+    "css-utilities",
+    "layout",
+    "suitcss",
+    "style"
+  ],
+  "homepage": "https://github.com/suitcss/utils-layout#readme",
+  "bugs": "https://github.com/suitcss/utils-layout/labels/bug",
+  "license": "MIT",
+  "author": "Nicolas Gallagher",
   "files": [
     "index.css",
     "index.js",
     "lib"
   ],
-  "devDependencies": {
-    "suitcss-components-test": "*",
-    "suitcss-preprocessor": "^1.0.1",
-    "stylelint-config-suitcss": "^4.0.0"
+  "style": "index.css",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/suitcss/utils-layout.git"
   },
   "scripts": {
     "build": "npm run setup && npm run preprocess",
@@ -23,15 +33,9 @@
     "watch": "npm run preprocess-test -- -w -v",
     "test": "npm run lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/suitcss/utils-layout.git"
-  },
-  "keywords": [
-    "browser",
-    "css-utilities",
-    "layout",
-    "suitcss",
-    "style"
-  ]
+  "devDependencies": {
+    "suitcss-components-test": "*",
+    "suitcss-preprocessor": "^1.0.1",
+    "stylelint-config-suitcss": "^4.0.0"
+  }
 }
